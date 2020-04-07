@@ -7,14 +7,20 @@
 # for i in range(1, n+1):
 #     if n%i == 0:
 #         print(i,end = " ")
-i = 1
-a = 3
-n = 8
-while i < 20:
-    print(str(i) + ": " + str(n))
-    if i%2 == 0:
-        a = 4
-    else:
-        a = 3
-    n = n + a
-    i = i + 1
+
+# i = 1
+# a = 3
+# n = 8
+# while i < 20:
+#     print(str(i) + ": " + str(n))
+#     if i%2 == 0:
+#         a = 4
+#     else:
+#         a = 3
+#     n = n + a
+#     i = i + 1
+
+sum = 0
+for i in range(-6, 18):
+    sum = sum + i
+aver
